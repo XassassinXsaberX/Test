@@ -44,6 +44,7 @@ pip install 你下載的numpy.whl檔
 pip install 你下載的scipy.whl檔
 ```
 最後我非常推薦使用[PyCharm](https://www.jetbrains.com/pycharm/)這套python IDE來編寫python程式
+<img src="https://raw.githubusercontent.com/XassassinXsaberX/test/master/img/pycharm-edu.png" width="150px"  />
 </br>
 </br>
 </br>
