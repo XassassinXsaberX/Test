@@ -1,11 +1,32 @@
 # communication-simulation
 <img src="http://www.cuelogic.com/blog/wp-content/uploads/2015/10/Python-35.jpg" width="100px" height="100px" />
 
-該repository的所有模擬在python3.5.2(64bits)環境下可順利執行 
+## 使用前說明
 
-請先至[官網](https://www.python.org/downloads/windows/)下載python3.0以上的版本，建議用3.5.2
-安裝時請記得勾選Add Python 3.5 to PATH，之後才能直接在命令提示字元中執行python
+
+該repository的所有模擬在python3.5.2(64bits)環境下可順利執行  
+請先至[官網](https://www.python.org/downloads/windows/)下載python3.0以上的版本，建議用3.5.2  
+安裝時請記得勾選Add Python 3.5 to PATH，之後才能直接在命令提示字元中執行python  
 若沒有勾選的話，需要在安裝完後將python直譯器執行檔路徑加入環境變數PATH中，才能在命令提示字元中執行python
+
+<img src="https://raw.githubusercontent.com/XassassinXsaberX/test/master/img/python%E6%95%99%E5%AD%B8001.png" />
+
+預設python3.5安裝路徑為C:\Users\user\AppData\Local\Programs\Python  
+使用者變數可設為
+```
+C:\Users\user\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\user\AppData\Local\Programs\Python\Python35
+```
+如此一來除了可以在命令提示字元中執行python直譯器，亦可執行Scripts資料夾中的pip、easy_install等腳本檔
+
+接下來可以執行get-pip.py來下載並安裝pip腳本檔 
+接下來可以用pip來安裝該模擬所需的套件  
+可在命令提示字元中輸入
+```
+pip install matplotlib
+```
+
+
+
 
 
 
