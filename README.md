@@ -17,7 +17,10 @@
 C:\Users\user\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\user\AppData\Local\Programs\Python\Python35
 ```
 如此一來除了可以在命令提示字元中執行python直譯器，亦可執行Scripts資料夾中的pip、easy_install等腳本檔
-</br></br>
+</br>
+</br>
+</br>
+</br>
 
 接下來可以執行[get-pip.py](https://raw.githubusercontent.com/XassassinXsaberX/test/master/get-pip.py)來下載並安裝pip腳本檔  
 再來可以用pip來安裝該模擬所需的套件  
@@ -25,8 +28,6 @@ C:\Users\user\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\user\AppD
 ```
 pip install matplotlib
 ```
-</br>
-
 而科學計算套件scipy的安裝會比較麻煩  
 請先到[此網站](http://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy)下載numpy套件  
 到[這裡](http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy)下載scipy套件  
@@ -34,7 +35,7 @@ pip install matplotlib
 請執行命令提示字元，並進行如下步驟
 ```
 先用cd指令切換目錄
-C:\Users\user>cd \d C:\Users\user\Downloads
+cd \d C:\Users\user\Downloads
 
 再用pip來安裝.whl檔
 pip install 你下載的numpy.whl檔
@@ -42,8 +43,6 @@ pip install 你下載的numpy.whl檔
 安裝完numpy套件後才能scipy套件，注意順序不可顛倒
 pip install 你下載的scipy.whl檔
 ```
-</br>
-
 最後我非常推薦使用[PyCharm](https://www.jetbrains.com/pycharm/)這套python IDE來編寫python程式
 
 
