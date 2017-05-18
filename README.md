@@ -1,8 +1,10 @@
 # communication-simulation
 <img src="http://www.cuelogic.com/blog/wp-content/uploads/2015/10/Python-35.jpg" width="100px" height="100px" />
 
-## 使用前說明
+這是將我目前在LAB所學到的知識，進行模擬的結果  
+目前主要專攻於**ofdm**，~~mimo的模擬先暫時告一段落XDD~~
 
+## 使用前說明
 
 該repository的所有模擬在python3.5.2(64bits)環境下可順利執行  
 請先至[官網](https://www.python.org/downloads/windows/)下載python3.0以上的版本，建議用3.5.2  
@@ -17,8 +19,6 @@
 C:\Users\user\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\user\AppData\Local\Programs\Python\Python35
 ```
 如此一來除了可以在命令提示字元中執行python直譯器，亦可執行Scripts資料夾中的pip、easy_install等腳本檔
-</br>
-</br>
 </br>
 </br>
 
@@ -44,14 +44,23 @@ pip install 你下載的numpy.whl檔
 pip install 你下載的scipy.whl檔
 ```
 最後我非常推薦使用[PyCharm](https://www.jetbrains.com/pycharm/)這套python IDE來編寫python程式
+</br>
+</br>
+</br>
+</br>
+
+## MIMO
+主要分為`capacity`模擬、space-time block code(`STBC`)模擬、`detection`模擬  
+using channel state information(`CSI`)模擬、`MU-MIMO`模擬
+</br>
+
+## OFDM 
+基本架構中，我花了些時間去模擬對ofdm symbol取樣的結果是否真的有IFFT關係
+還有模擬ofdm的power spectrum density，及載波間的正交性關係，最後也做了是否考慮rayleigh fading的BER模擬
+目前以完成探討symbol timing offset對星座的的影響問題
 
 
 
-
-
-
-這是將我目前在LAB所學到的知識，進行模擬的結果
-目前主要專攻於**ofdm** ~~mimo的模擬先暫時告一段落XDD~~
 
 ```
 該模擬大量參考該書
