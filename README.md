@@ -15,9 +15,11 @@
 
 
 ![baidu-w150](http://www.baidu.com/img/bdlogo.gif "百度logo")
-<img src="https://avatars2.githubusercontent.com/u/3265208?v=3&s=100" alt="GitHub" title="GitHub,Social Coding" style="width: 100px;" />
+<img src="https://avatars2.githubusercontent.com/u/3265208?v=3&s=100" />
+<img src="https://avatars2.githubusercontent.com/u/3265208?v=3&s=100" width="100px" height="200px" />
+
 ---------------------------------------
-# 測試一下
+### 測試一下
 ```
 我現在
 要打字喔
